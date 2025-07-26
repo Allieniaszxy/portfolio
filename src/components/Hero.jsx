@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <div>
       <div
-        className="flex justify-between py-[10%] bg-[#f3edfb] max-tablet:flex-col max-tablet:py-[20%] max-tablet:items-center max-mobile:w-full max-mobile:items-center max-mobile:px-5 "
-        id="hero"
+        className="flex justify-between py-[15%] bg-[#f3edfb] max-tablet:flex-col max-tablet:py-[20%] max-tablet:items-center max-mobile:w-full max-mobile:items-center max-mobile:px-5 "
+        id="home"
       >
-        <div className="max-tablet:mb-[30px] max-mobile:w-full">
+        <div className=" max-mobile:w-full">
           <h1 className="text-7xl font-bold mb-[30px] max-tablet:font-semibold max-tablet:text-5xl ">
             Hello, I'm <br />
             Al-Amin Alaka
@@ -22,7 +22,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="w-[500px] h-[500px] bg-white rounded shadow-md flex items-center justify-center max-tablet:w-full ">
-          <img src="/profile.png" alt="" className="w-[380px] h-[450px]" />
+          <img src="/hero.png" alt="" className="w-[380px] h-[450px]" />
         </div>
       </div>
     </div>

@@ -26,9 +26,11 @@ const Header = () => {
           <a href="#projects">
             <nav>Services</nav>
           </a>
-          <nav className="bg-[#a53dff] py-2 px-3 text-white rounded">
-            Contact
-          </nav>
+          <a href="#contact">
+            <nav className="bg-[#a53dff] py-2 px-3 text-white rounded">
+              Contact
+            </nav>
+          </a>
         </div>
 
         <div

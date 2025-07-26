@@ -11,16 +11,26 @@ import { BsDownload } from "react-icons/bs";
 const Curriculum = () => {
   return (
     <div>
-      <div className="flex items-center justify-center gap-[10rem] shadow-md py-[5%] max-tablet:flex-col max-tablet:space-y-6 max-tablet:gap-[20px]">
+      <div
+        className="flex items-center justify-center gap-[10rem] shadow-md py-[5%] max-tablet:flex-col max-tablet:space-y-6 max-tablet:gap-[20px]"
+        id="about"
+      >
         <div className="relative">
           <div className="w-[400px] h-[500px] bg-[#f0f1f3] rounded shadow-md flex items-center justify-center">
-            <img src="/profile.png" alt="" className="w-[380px] h-[500px]" />
+            <img src="/hero.png" alt="" className="w-[380px] h-[500px]" />
             <div className="absolute bottom-[-20px] flex items-center justify-center bg-white w-[300px] rounded gap-5 h-[50px] shadow-md">
               <FaFacebook color="#a53dff" size={25} />
-              <FaLinkedin color="#a53dff" size={25} />
+              <a href="  https://www.linkedin.com/in/al-amin-alaka/">
+                <FaLinkedin color="#a53dff" size={25} />
+              </a>
+
               <FaInstagram color="#a53dff" size={25} />
-              <FaXTwitter color="#a53dff" size={25} />
-              <FaGithub color="#a53dff" size={25} />
+              <a href="https://github.com/prometheus">
+                <FaXTwitter color="#a53dff" size={25} />
+              </a>
+              <a href="https://github.com/Allieniaszxy/">
+                <FaGithub color="#a53dff" size={25} />
+              </a>
             </div>
           </div>
         </div>
@@ -40,7 +50,9 @@ const Curriculum = () => {
             </button>
             <button className="border border-[#a53dff] flex items-center justify-center py-2 px-3 text-yellow rounded gap-2.5">
               <BsDownload />
-              <span className="text-yellow">Download CV</span>
+              <a href="/src/assets/ALAKA AL-AMIN AYOMIDE word cv.pdf">
+                <span className="text-yellow">Download CV</span>
+              </a>
             </button>
           </div>
         </div>

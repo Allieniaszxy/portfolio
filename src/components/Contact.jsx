@@ -17,7 +17,10 @@ const Contact = () => {
       className="
     bg-black z-30"
     >
-      <div className="bg-white rounded-2xl max-w-[1400px] mx-auto border flex  justify-center gap-[5rem] p-[80px] max-tablet:flex-col">
+      <div
+        className="bg-white rounded-2xl max-w-[1400px] mx-auto border flex  justify-center gap-[5rem] p-[80px] max-tablet:flex-col"
+        id="contact"
+      >
         <div className="w-[50%] max-tablet:w-full">
           <h1 className="text-3xl font-bold mb-[20px]">
             Let’s discuss your Project
@@ -57,10 +60,17 @@ const Contact = () => {
           </div>
           <div className="flex gap-5">
             <FaFacebook color="#a53dff" size={30} />
-            <FaLinkedin color="#a53dff" size={30} />
+            <a href="  https://www.linkedin.com/in/al-amin-alaka/">
+              <FaLinkedin color="#a53dff" size={30} />
+            </a>
+
             <FaInstagram color="#a53dff" size={30} />
-            <FaXTwitter color="#a53dff" size={30} />
-            <FaGithub color="#a53dff" size={30} />
+            <a href="https://github.com/prometheus">
+              <FaXTwitter color="#a53dff" size={30} />
+            </a>
+            <a href="https://github.com/Allieniaszxy/">
+              <FaGithub color="#a53dff" size={30} />
+            </a>
           </div>
         </div>
         <div className="w-[50%] max-tablet:w-full">

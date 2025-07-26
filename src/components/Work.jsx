@@ -7,7 +7,10 @@ import { MdOutlineRocketLaunch } from "react-icons/md";
 const Work = () => {
   return (
     <div>
-      <div className="flex items-center justify-between gap-[7%] bg-[#eeeff1] py-[10%] max-tablet:flex-col max-tablet:p-[20px]">
+      <div
+        className="flex items-center justify-between gap-[7%] bg-[#eeeff1] py-[10%] max-tablet:flex-col max-tablet:p-[20px]"
+        id="projects"
+      >
         <div className="w-[53%] max-tablet:w-full max-tablet:py-[3%]">
           <h1 className="text-4xl mb-[20px] font-bold">Work Process</h1>
           <p className="text-[18px] mb-[20px]">
