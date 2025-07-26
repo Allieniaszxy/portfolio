@@ -19,13 +19,17 @@ const Curriculum = () => {
           <div className="w-[400px] h-[500px] bg-[#f0f1f3] rounded shadow-md flex items-center justify-center">
             <img src="/hero.png" alt="" className="w-[380px] h-[500px]" />
             <div className="absolute bottom-[-20px] flex items-center justify-center bg-white w-[300px] rounded gap-5 h-[50px] shadow-md">
-              <FaFacebook color="#a53dff" size={25} />
+              <a href="https://www.facebook.com/share/18LSoXzaRW/">
+                <FaFacebook color="#a53dff" size={25} />
+              </a>
               <a href="  https://www.linkedin.com/in/al-amin-alaka/">
                 <FaLinkedin color="#a53dff" size={25} />
               </a>
 
-              <FaInstagram color="#a53dff" size={25} />
-              <a href="https://github.com/prometheus">
+              <a href="https://www.instagram.com/prometheus8092?igsh=MXdma292NW83c2NxdA==">
+                <FaInstagram color="#a53dff" size={25} />
+              </a>
+              <a href="https://x.com/prometheus_40">
                 <FaXTwitter color="#a53dff" size={25} />
               </a>
               <a href="https://github.com/Allieniaszxy/">
@@ -36,7 +40,7 @@ const Curriculum = () => {
         </div>
         <div className="max-w-[700px]">
           <h1 className="text-4xl mb-[20px] max-tablet:font-bold max-tablet:text-[40px]">
-            I am Professional User Experience Developer
+            👋 Hi, I'm a Professional User Experience Developer
           </h1>
           <p className="text-[20px] mb-[20px]">
             I develop services for customers specializing creating stylish,
@@ -45,9 +49,11 @@ const Curriculum = () => {
             specializing creating stylish, modern websites, web services.
           </p>
           <div className="flex items-center gap-5 max-tablet:flex-col">
-            <button className="bg-[#a53dff] py-2 px-3 text-white rounded">
-              My Projects
-            </button>
+            <a href="#projects">
+              <button className="bg-[#a53dff] py-2 px-3 text-white rounded">
+                My Projects
+              </button>
+            </a>
             <button className="border border-[#a53dff] flex items-center justify-center py-2 px-3 text-yellow rounded gap-2.5">
               <BsDownload />
               <a href="/src/assets/ALAKA AL-AMIN AYOMIDE word cv.pdf">

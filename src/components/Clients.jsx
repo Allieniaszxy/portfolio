@@ -9,7 +9,10 @@ import Contact from "./Contact";
 const Clients = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center bg-black py-[7%]">
+      <div
+        className="flex flex-col items-center justify-center bg-black py-[7%]"
+        id="testimonial"
+      >
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[45px] text-gray-400  mb-[10px] font-bold">
             Happy Clients

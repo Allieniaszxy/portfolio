@@ -9,7 +9,7 @@ const Work = () => {
     <div>
       <div
         className="flex items-center justify-between gap-[7%] bg-[#eeeff1] py-[10%] max-tablet:flex-col max-tablet:p-[20px]"
-        id="projects"
+        id="work"
       >
         <div className="w-[53%] max-tablet:w-full max-tablet:py-[3%]">
           <h1 className="text-4xl mb-[20px] font-bold">Work Process</h1>

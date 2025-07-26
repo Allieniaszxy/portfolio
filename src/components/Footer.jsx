@@ -11,9 +11,15 @@ const Footer = () => {
           <h1 className="text-3xl font-semibold text-white">Ingenious</h1>
         </div>
         <div className="flex items-center gap-[30px] text-white max-tablet:flex-col ">
-          <nav>Home</nav>
-          <nav>About</nav>
-          <nav>Services</nav>
+          <a href="#home" className="hover:text-[#a53dff] transition">
+            Home
+          </a>
+          <a href="#about" className="hover:text-[#a53dff] transition">
+            About
+          </a>
+          <a href="">
+            <nav className="hover:text-[#a53dff] transition">Services</nav>
+          </a>
         </div>
         <div>
           <nav className="text-white">Copyright © 2025 Picto.</nav>

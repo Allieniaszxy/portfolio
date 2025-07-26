@@ -3,7 +3,10 @@ import React from "react";
 const Idea = () => {
   return (
     <div>
-      <div className="bg-[#132238] py-[5%] flex flex-col items-center justify-center text-white max-tablet:w-full">
+      <div
+        className="bg-[#132238] py-[5%] flex flex-col items-center justify-center text-white max-tablet:w-full"
+        id="idea"
+      >
         <h1 className="text-5xl mb-[20px] font-bold w-[60%] text-center max-tablet:w-full max-tablet:px-[20px]">
           Do you have Project Idea? Let's discuss your project!
         </h1>
