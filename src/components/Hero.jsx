@@ -12,7 +12,7 @@ const Hero = () => {
             Hello, I'm <br />
             Al-Amin Alaka
           </h1>
-          <p className="text-[20px] w-[700px] mb-[20px]">
+          <p className="text-[20px] w-[700px] mb-[20px] flex flex-wrap">
             I specialize in building immersive, user-focused web applications
             that blend clean design with seamless functionality. With a passion
             for crafting intuitive digital experiences, I use thoughtful code
