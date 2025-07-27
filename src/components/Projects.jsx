@@ -1,11 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
-
-import abode2 from "../assets/images/abode2.png";
-import snap from "../assets/images/snap.png";
-import piggy from "../assets/images/piggyvest.png";
-import meta from "../assets/images/meta.png";
-import cgpa from "../assets/images/cgpa.png";
+import piggy from "../assets/images/piggyvest.PNG";
 
 const Projects = () => {
   const boxArray = [
@@ -19,13 +14,13 @@ const Projects = () => {
       label: "UI/UX Implementation",
       topic: "Abode Agency Website",
       desc: "Designed and built a static marketing website for a digital agency using only HTML, CSS, and JavaScript with responsive design for all screen sizes.",
-      img: abode2,
+      img: "/abode2.PNG",
     },
     {
       label: "Static Landing Page",
       topic: "Snap Product Page",
       desc: "Created a clean and interactive landing page using HTML, CSS, and JS focusing on animations, dropdowns, and user-friendly layout.",
-      img: snap,
+      img: "/snap.PNG",
     },
     {
       label: "Web App",
@@ -37,13 +32,13 @@ const Projects = () => {
       label: "Meta Homepage UI",
       topic: "Meta Website UI",
       desc: "Replicated Meta’s homepage using React and Tailwind, with stateful components and route simulation for navigation.",
-      img: meta,
+      img: "/meta.PNG",
     },
     {
       label: "Student Utility Tool",
       topic: "CGPA Calculator",
       desc: "Built a CGPA calculator with React and TypeScript, supporting 4.0 and 5.0 scales, semester-wise input, and dynamic GPA computation.",
-      img: cgpa,
+      img: "/cgpa.PNG",
     },
   ];
 
