@@ -7,6 +7,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [services, setServices] = useState(false);
 
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+
   return (
     <header className="fixed top-0 left-0 w-full bg-white z-50 shadow-md">
       <div className="flex items-center justify-between h-[80px] max-w-[1480px] mx-auto px-4">
@@ -110,7 +112,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-screen bg-[#1e293b] flex flex-col items-center justify-center space-y-6 text-white text-xl transition-all duration-300 z-40">
           <a
@@ -127,13 +128,50 @@ const Header = () => {
           >
             About
           </a>
-          <a
-            href="#projects"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-[#14b8a6]"
-          >
-            Projects
-          </a>
+
+          {/* Mobile Services Dropdown */}
+          <div className="w-full flex flex-col items-center">
+            <button
+              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+              className="flex items-center gap-1 text-white text-xl hover:text-[#14b8a6] focus:outline-none"
+            >
+              Services <MdKeyboardArrowDown />
+            </button>
+
+            {mobileServicesOpen && (
+              <div className="mt-2 w-[200px] bg-white text-black rounded-lg shadow p-4">
+                <a
+                  href="#work"
+                  className="block py-2 text-base hover:text-[#a53dff]"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Work
+                </a>
+                <a
+                  href="#idea"
+                  className="block py-2 text-base hover:text-[#a53dff]"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Idea
+                </a>
+                <a
+                  href="#testimonial"
+                  className="block py-2 text-base hover:text-[#a53dff]"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Clients
+                </a>
+                <a
+                  href="#projects"
+                  className="block py-2 text-base hover:text-[#a53dff]"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Projects
+                </a>
+              </div>
+            )}
+          </div>
+
           <a
             href="#contact"
             onClick={() => setIsOpen(false)}

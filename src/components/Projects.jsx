@@ -1,6 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
-import moove from "../assets/images/moove.png";
+
 import abode2 from "../assets/images/abode2.png";
 import snap from "../assets/images/snap.png";
 import piggy from "../assets/images/piggyvest.png";
@@ -13,7 +13,7 @@ const Projects = () => {
       label: "Frontend Development",
       topic: "Moove Website Clone",
       desc: "A pixel-perfect clone of the Moove Africa homepage built with HTML, CSS, and vanilla JavaScript to demonstrate layout and responsiveness.",
-      img: moove,
+      img: "/moove.PNG",
     },
     {
       label: "UI/UX Implementation",
