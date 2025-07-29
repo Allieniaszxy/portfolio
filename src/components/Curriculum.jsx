@@ -16,8 +16,12 @@ const Curriculum = () => {
         id="about"
       >
         <div className="relative">
-          <div className="w-[400px] h-[500px] bg-[#f0f1f3] rounded shadow-md flex items-center justify-center">
-            <img src="/hero.png" alt="" className="w-[380px] h-[500px]" />
+          <div className="w-[400px] h-[500px] bg-[#f0f1f3] rounded shadow-md flex items-center justify-center max-tablet:w-[380px] max-tablet:h-[450px]">
+            <img
+              src="/hero.png"
+              alt=""
+              className="w-[380px] h-[500px] max-tablet:w-full max-tablet:h-auto"
+            />
             <div className="absolute bottom-[-20px] flex items-center justify-center bg-white w-[300px] rounded gap-5 h-[50px] shadow-md">
               <a href="https://www.facebook.com/share/18LSoXzaRW/">
                 <FaFacebook color="#a53dff" size={25} />
