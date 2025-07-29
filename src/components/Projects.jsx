@@ -71,7 +71,7 @@ const Projects = () => {
         <div className="grid grid-cols-3 gap-[1rem] mb-[5%] max-tablet:grid-cols-1 max-tablet:w-full">
           {boxArray.map((item, i) => (
             <div
-              className="w-[450px] h-[500px] flex flex-col rounded overflow-hidden border max-tablet:w-full"
+              className="w-[450px] flex flex-col rounded overflow-hidden border max-tablet:w-full"
               key={i}
             >
               <div className="w-full h-[250px]">
