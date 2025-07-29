@@ -12,7 +12,7 @@ const Curriculum = () => {
   return (
     <div>
       <div
-        className="flex items-center justify-center gap-[10rem] shadow-md py-[5%] max-tablet:flex-col max-tablet:space-y-6 max-tablet:gap-[20px]"
+        className="flex items-center justify-center gap-[10rem] shadow-md py-[5%] max-tablet:flex-col max-tablet:space-y-6 max-tablet:gap-[20px] max-tablet:px-4"
         id="about"
       >
         <div className="relative">
